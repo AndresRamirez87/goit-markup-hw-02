@@ -5,3 +5,10 @@
 .menu-links .link:hover {
   color: #2196f3;
 }
+
+header > a {
+  color: #757575;
+}
+header > a:hover {
+  color: #2196f3;
+}

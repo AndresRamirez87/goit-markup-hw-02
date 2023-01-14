@@ -130,8 +130,6 @@ address > ul > li > h6 {
 }
 .buttons-main .sitios:hover {
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
@@ -152,8 +150,6 @@ address > ul > li > h6 {
 }
 .contents-main {
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -190,8 +186,6 @@ address > ul > li > h6 {
 }
 .profession-main {
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
@@ -209,8 +203,6 @@ address > ul > li > h6 {
 }
 .description {
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;

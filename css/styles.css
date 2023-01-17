@@ -127,6 +127,7 @@ address > ul > li > h6 {
   letter-spacing: 0.03em;
   color: #ffffff;
   background: #2196f3;
+  cursor: pointer;
 }
 
 .details-main {

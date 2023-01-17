@@ -3,6 +3,9 @@
 .link:hover {
   color: #2196f3;
 }
+.link:focus {
+  color: #2196f3;
+}
 .link {
   font-family: 'Roboto';
   font-style: normal;
@@ -12,13 +15,18 @@
   letter-spacing: 0.02em;
   color: black;
 }
-
 .web-nav {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  color: #2196f3;
+}
+header > a:hover {
+  color: #2196f3;
+}
+header > a:focus {
   color: #2196f3;
 }
 header > a {
@@ -30,9 +38,7 @@ header > a {
   letter-spacing: 0.02em;
   color: #757575;
 }
-header > a:hover {
-  color: #2196f3;
-}
+
 .part-main {
   width: 1600px;
   height: 600px;
@@ -165,6 +171,7 @@ address > ul > li > h6 {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
 .ourteam-main {
   font-family: 'Roboto';
   font-style: normal;

@@ -74,7 +74,7 @@ body {
   color: #2196f3;
 }
 
-main li {
+.detall {
   list-style: none;
 }
 .part-solu {
@@ -240,7 +240,7 @@ main li {
   text-decoration: underline 3px #2196f3;
 }
 
-footer {
+.foot {
   width: 1600px;
   height: 252px;
   left: 0px;
@@ -303,3 +303,4 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+/* Portafolio*/

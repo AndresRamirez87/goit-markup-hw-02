@@ -13,6 +13,7 @@ body {
 }
 .link-brow {
   display: flex;
+  list-style: none;
 }
 .link-brow .link {
   text-decoration: none;
@@ -43,6 +44,7 @@ body {
   text-align: right;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: underline 3px #2196f3;
 }
 
 .links-datos {
@@ -56,6 +58,7 @@ body {
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
+  list-style: none;
 }
 .links-datos a {
   text-decoration: none;
@@ -70,26 +73,23 @@ body {
 .phone:focus {
   color: #2196f3;
 }
+
+main li {
+  list-style: none;
+}
 .part-solu {
   width: 1600px;
-  height: 600px;
   left: -4px;
   top: 80px;
   background: #2f303a;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
 .solution {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 448px;
-  top: 280px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.363em;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -99,10 +99,9 @@ body {
   display: block;
   margin: 0 auto;
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875em;
   display: flex;
   align-items: center;
   text-align: center;
@@ -114,10 +113,193 @@ body {
   cursor: pointer;
   border-radius: 4px;
 }
-
 .service:hover,
 .service:focus,
 .service:active {
   background: #2196f3;
   color: #ffffff;
+}
+.detail {
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+.details.main {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.contents-main {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.details-main:hover,
+.details-main:focus,
+.details-main:active {
+  text-decoration: underline 3px #2196f3;
+}
+
+.contents-main:hover,
+.contents-main:focus,
+.contents-main:active {
+  text-decoration: underline 3px #2196f3;
+}
+.work-main {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.ocupation {
+  width: 1173.16px;
+  height: 425px;
+  left: 215px;
+  top: 991px;
+  display: block;
+  margin: auto;
+}
+.images {
+  display: flex;
+}
+.img:hover,
+.img:focus,
+.img:active {
+  border: 2px solid #2196f3;
+}
+.team {
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1510px;
+
+  background: #f5f4fa;
+}
+.them {
+  display: flex;
+}
+.ourteam {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.member:hover,
+.member:focus,
+.member:active {
+  border: 2px solid #2196f3;
+}
+.team-main {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.profession-main {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.team-main:hover,
+.team-main:focus,
+.team-main:active {
+  text-decoration: underline 3px #2196f3;
+}
+.profession-main:hover,
+.profession-main:focus,
+.profession-main:active {
+  text-decoration: underline 3px #2196f3;
+}
+
+footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2158px;
+  background: #2f303a;
+}
+.direct-foot {
+  list-style: none;
+}
+
+.web-foot {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.web-foot:focus,
+.web-foot:hover {
+  text-decoration: underline 3px #2196f3;
+}
+.addres:focus,
+.addres:hover {
+  text-decoration: underline 3px #2196f3;
+}
+.addres {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.email-2:focus,
+.email-2:hover {
+  text-decoration: underline 3px #2196f3;
+}
+.email-2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.phone-2:focus,
+.phone-2:hover {
+  text-decoration: underline 3px #2196f3;
+}
+.phone-2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }

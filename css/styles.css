@@ -304,3 +304,25 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 /* Portafolio*/
+.buttons-main {
+  display: flex;
+}
+
+.butt {
+  width: 38px;
+  height: 26px;
+  left: calc(50% - 38px / 2 - 269px);
+  top: calc(50% - 26px / 2 - 735px);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  list-style: none;
+}

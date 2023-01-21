@@ -11,6 +11,9 @@ body {
   margin-top: auto;
   margin-bottom: auto;
 }
+main li {
+  list-style: none;
+}
 .link-brow {
   display: flex;
   list-style: none;
@@ -40,7 +43,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.938rem;
   text-align: right;
   letter-spacing: 0.03em;
   color: #2196f3;
@@ -52,7 +55,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1rem;
   letter-spacing: 0.02em;
   display: flex;
   margin-left: auto;
@@ -129,7 +132,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1rem;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -139,7 +142,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5rem;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -159,7 +162,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 2.625rem;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -196,7 +199,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 2.625rem;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -211,7 +214,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.188rem;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -221,12 +224,9 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
+  line-height: 1.188rem;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .team-main:hover,
@@ -256,7 +256,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.938rem;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -273,7 +273,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5rem;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -286,7 +286,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5rem;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -299,30 +299,98 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5rem;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 /* Portafolio*/
-.buttons-main {
-  display: flex;
+
+.sites-a:hover,
+.sites-a:focus,
+.sites-a:active {
+  text-decoration: underline 3px #2196f3;
+  background: #2196f3;
+  color: #ffffff;
+}
+.sites:hover,
+.sites:focus,
+.sites:active {
+  text-decoration: underline 3px #2196f3;
+  background: #2196f3;
+  color: #ffffff;
 }
 
-.butt {
-  width: 38px;
-  height: 26px;
-  left: calc(50% - 38px / 2 - 269px);
-  top: calc(50% - 26px / 2 - 735px);
+.buttons-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sites-a {
+  width: 73px;
+  height: 38px;
+  margin-right: 12px;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: 1px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625rem;
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.sites {
+  width: 128px;
+  height: 38px;
+  margin-right: 12px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 1px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625rem;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.areas:focus,
+.areas:active,
+.areas:hover {
+  text-decoration: underline 3px #2196f3;
+}
+.description:focus,
+.description:active,
+.description:hover {
+  text-decoration: underline 3px #2196f3;
+}
+
+.areas {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.25rem;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.box {
+  box-sizing: border-box;
+  margin-right: 12px;
+  width: 370px;
+  height: 423px;
+  background: #ffffff;
+  border: 0px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.conte {
   display: flex;
-  margin: auto;
-  width: 80%;
-  list-style: none;
 }

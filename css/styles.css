@@ -8,10 +8,10 @@
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
   background-color: var(--var-color-back-text);
+  color: var(--var-color-text-black);
 }
 .head {
   display: flex;
-  background-color: var(--var-color-back-text);
 }
 .browser {
   display: flex;
@@ -21,16 +21,17 @@ body {
 main li {
   list-style: none;
 }
+
 .link-brow {
   display: flex;
   list-style: none;
 }
 
-.current {
+.browser .link-brow .current {
   color: #2196f3;
 }
 
-.link-brow .link {
+/* .link-brow .link {
   text-decoration: none;
   font-style: normal;
   color: var(--var-color-text-black);
@@ -39,9 +40,9 @@ main li {
   line-height: 1.7142em;
   letter-spacing: 0.02em;
   margin-right: 50px;
-}
+} */
 
-.link-brow .link-current {
+.link-brow .link {
   text-decoration: none;
   font-style: normal;
   color: var(--var-color-text-black);
@@ -72,7 +73,7 @@ main li {
   text-align: right;
   letter-spacing: 0.03em;
   color: var(--var-color-textdeco-ho-fo);
-  text-decoration: underline 3px var(--var-color-textdeco-ho-fo);
+  /* text-decoration: underline 3px var(--var-color-textdeco-ho-fo); */
 }
 
 .links-datos {

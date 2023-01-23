@@ -28,7 +28,7 @@ main li {
 }
 
 .browser .link-brow .current {
-  color: #2196f3;
+  color: var(--var-color-textdeco-ho-fo);
 }
 
 /* .link-brow .link {

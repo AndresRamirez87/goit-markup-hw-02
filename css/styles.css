@@ -213,7 +213,7 @@ main li {
 .img:hover,
 .img:focus,
 .img:active {
-  border: 2px solid var(--var-color-textdeco-ho-fo);
+  border: 3px solid var(--var-color-textdeco-ho-fo);
 }
 .team {
   width: 1600px;
